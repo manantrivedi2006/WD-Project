@@ -4,42 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <style>
+        
+        .link{
+          color:red;
+        }  
+              .ul{
+                  color: blue;
+              }
+              .h1{
+                  text-decoration: underline;
+              }
+              .button{
+                  text-decoration: none;
+                  color:crimson;
+              }
+              .form{
+                width: 400px;
+                padding: 30px;    
+            }
+      </style>
+  
 </head>
 <body>
-    <ul>
-        <li> <a href="/WD-Project/Home.html">Home</a></li>
-        <li><a href="/WD-Project/">Culture</a></li>
-        <li><a href="/WD-Project/landmarks.html">Landmarks</a></li>
-        <li><a href="/WD-Project/cuisine.html">Cuisine</a> </li>
-        <li><a href="/WD-Project/contactus.html">contact Us</a></li>
+    <ul class="ul">
+        <li> <a class="link"  style="text-decoration: none;" href="/WD-Project/Home.html">Home</a></li>
+        <li><a class="link"  style="text-decoration: none;" href="/WD-Project/">Culture</a></li>
+        <li><a class="link"  style="text-decoration: none;" href="/WD-Project/landmarks.html">Landmarks</a></li>
+        <li><a class="link"  style="text-decoration: none;" href="/WD-Project/cuisine.html">Cuisine</a> </li>
+        <li><a class="link"  style="text-decoration: none;" href="/WD-Project/contactus.html">contact Us</a></li>
     </ul>
     <br>
-    <h1>Contact Us</h1>
-    <br>
+    <h1 class="h1">Contact Us</h1>
+    
     <p>
         please fill out the form below for any inquiries or to register as a student.
 
     </p>
     <br>
-    <h3>Student Registration Form</h3>
+    <h3>Student Registration Form:</h3>
 
-    <br>
-    <form action="">
+    
+    <form action="" style="border: 2px solid black; " class="form">
+        
         <label for="name">First Name:</label>
             <input type="text" name="name" id="name" placeholder="enter your first name">
-            <br>
+            <br><br>
         <label for="password">password:</label>
         <input type="password" name="password" id="password">
-        <br>
+        <br><br>
         gender:
         <input type="radio" name="gender" id="gender" >
         <label for="gender">Male</label>
         <input type="radio" name="gender" id="gender" >
         <label for="gender">Female</label>
-        <br>
+        <br><br>
         <label for="checkbox">Subscribe to Newsletter:</label>
         <input type="checkbox" checked>
-        <br>
+        <br><br>
         <label for="state">State:</label>
         <select name="state" id="state">
             <option value=" " selected disabled>Select your state</option>
@@ -49,21 +71,44 @@
             <option value="">maharastra</option>
             <option value="">kashmir</option>
         </select>
-        <br>
+        <br><br>
         <label for="file">Upload Resume:</label>
         <input type="file" id="file" name="file">
-        <br>
+        <br><br>
         <label for="Address:">Address:</label>
         <textarea name="Address:" id="Address:" placeholder="enter your full address"></textarea>        
-
-    
-    
+        <br><br>
+        <label for="date">Date of Birth :</label>
+        <input type="date" name="date ">
+        <br><br>
+        <label for="Time">Preferred Interview Time:</label>
+        <input type="time" name="Time" id="Time">
+        <br><br>
+        <label for="Marks">Marks:</label>
+        <input type="number" name="marks">
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+        <label for="submit"></label>
+        <label for="Reset"></label>
+        <input type="reset" name="reset" id="reset">
     </form>
-
     <br>
-    <a href="/WD-Project/landmarks.html"><b><h3> ← back to landmarks </h3></b></a>
-    <a href="/WD-Project/Home.html"><b><h3>← Back to Home</h3></b></a>
-    <a href="/WD-Project/culture.html"><b><h3>← Back to cultural</h3></b></a>
-    <a href="/WD-Project/cuisine.html"><b><h3>← Back to cuisine</h3></b></a>
+    <h1 class="h1">More Information</h1>
+    <p>Explore government job opportunities on the official OJAS website:</p>
+<br>
+<a  href="http://ojas.gujarat.gov.in" target="">ojas</a>
+    <br><br>
+   <button> <a class="button" href="/WD-Project/landmarks.html"><b><h3> ← back to landmarks </h3></b></a></button>
+   <button> <a class="button" href="/WD-Project/Home.html"><b><h3>← Back to Home</h3></b></a>  </button>      
+   <button> <a class="button" href="/WD-Project/culture.html"><b><h3>← Back to cultural</h3></b></a> </button>
+   <button> <a class="button" href="/WD-Project/cuisine.html"><b><h3>← Back to cuisine</h3></b></a></button>  
+   <br>
+    <p>Contact us at info@incredibleindia.com</p>
+    <p>
+    &COPY;2025 Incredible India Project. All rights reserved.
+    </p>
+    <p>
+    Follow us on:Instagram|Whatsapp
+    </p>
 </body>
 </html>
