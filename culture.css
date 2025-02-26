@@ -19,9 +19,11 @@ body{
     top: 10px;
     
     background-color: antiquewhite;
+    border: 2px solid black;
     height: 60px;
     padding-top: 10px;
     border-radius: 20px;
+
 }
  .li {
     display: inline;
@@ -32,6 +34,13 @@ body{
     border-radius: 20px;
     margin-left: 100px;
     border: 1px solid grey;
+    
+    
+}
+.li:hover{
+    scale: 1.1;
+    background-color: aqua;
+
 }
 .a{
     display: block;
@@ -47,7 +56,7 @@ body{
         }
         .h1{
             text-decoration: underline;
-            color: aqua;
+            
         }
         .button{
             text-decoration: none;
@@ -58,3 +67,28 @@ body{
           width: 300px;
           
       }
+      .b1{
+        box-shadow: 10px 10px 15px;
+        margin-left: 30px;
+    }
+    .b1:hover{
+        background-color: aqua;
+        scale: 1.1;
+    }
+    .img1{
+        margin-left: 500px;
+        box-shadow: 10px 10px 15px;
+    }
+    .img2{
+        margin-left: 500px;
+        box-shadow: 10px 10px 15px;
+        margin-bottom: 40px;
+    }
+    .img1:hover{
+        transition: 2s;
+        scale: 1.1;
+    }
+    .img2:hover{
+        transition: 2s;
+        scale: 1.1;
+    }

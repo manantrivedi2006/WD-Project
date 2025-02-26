@@ -17,9 +17,11 @@ body{
     top: 10px;
     
     background-color: antiquewhite;
+    border: 2px solid black;
     height: 60px;
     padding-top: 10px;
     border-radius: 20px;
+
 }
  .li {
     display: inline;
@@ -30,6 +32,13 @@ body{
     border-radius: 20px;
     margin-left: 100px;
     border: 1px solid grey;
+    
+    
+}
+.li:hover{
+    scale: 1.1;
+    background-color: aqua;
+
 }
 .a{
     display: block;
