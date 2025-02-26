@@ -60,3 +60,11 @@ body{
           width: 400px;
           padding: 30px;    
       }
+      .b1{
+        box-shadow: 10px 10px 15px;
+        margin-left: 30px;
+    }
+    .b1:hover{
+        background-color: aqua;
+        scale: 1.1;
+    }
