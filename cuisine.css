@@ -50,3 +50,27 @@ body{
             text-decoration: none;
             color:crimson;
         }
+    .img1:hover{
+        transition: 2s;
+        scale: 1.1;
+    }
+    .img2:hover{
+        transition: 2s;
+        scale: 1.1;
+    }
+    .img3:hover{
+        transition: 2s;
+        scale: 1.1;
+    }
+.img1{
+    margin-left: 500px;
+    box-shadow: 10px 15px 10px;
+}
+.img2{
+    margin-left: 500px;
+    box-shadow: 10px 15px 10px ;
+}
+.img3{
+    margin-left: 500px;
+    box-shadow: 10px 15px 10px ;
+}

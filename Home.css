@@ -17,9 +17,11 @@ body{
     top: 10px;
     
     background-color: antiquewhite;
+    border: 2px solid black;
     height: 60px;
     padding-top: 10px;
     border-radius: 20px;
+
 }
  .li {
     display: inline;
@@ -30,6 +32,13 @@ body{
     border-radius: 20px;
     margin-left: 100px;
     border: 1px solid grey;
+    
+    
+}
+.li:hover{
+    scale: 1.1;
+    background-color: aqua;
+
 }
 .a{
     display: block;
@@ -50,13 +59,16 @@ body{
             
             
         }
+        
         .img1{
             height: 200px;
             margin: 20px;
             margin-left: 500px;
+            box-shadow: 10px 15px 10px black;
             
         
         }
+        
         .tcontent{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: larger;
@@ -74,19 +86,28 @@ body{
             height: 300px;
             margin: 30px;
             margin-left: 500px;
-                
+            box-shadow: 10px 15px 10px ;
         }
         .img:hover{
             scale: 1.1;
+            transition: 2s;
             
         }
         .button1{
             margin: 10px;
             border-radius: 10px;
+            box-shadow: 10px 15px 10px ;
+
             
+        }
+        .button1:hover{
+           
+            scale: 1.1;
+            background-color: aqua;
         }
         .img1:hover{
             scale:1.3;
+            transition: 2s;
             
         }
         .mainh1{
