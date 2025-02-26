@@ -46,8 +46,33 @@ body{
         .button{
             text-decoration: none;
             color:crimson;
+            
+        }
+        .b1{
+            box-shadow: 10px 10px 15px;
+            margin-left: 30px;
+        }
+        .b1:hover{
+            background-color: aqua;
+            scale: 1.1;
         }
         .table{
           height: 200px;
           width: 500px;
+        }
+        .img1{
+            margin-left: 500px;
+            box-shadow: 10px 10px 15px;
+        }
+        .img2{
+            margin-left: 500px;
+            box-shadow: 10px 10px 15px;
+        }
+        .img1:hover{
+            transition: 2s;
+            scale: 1.1;
+        }
+        .img2:hover{
+            transition: 2s;
+            scale: 1.1;
         }
