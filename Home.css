@@ -52,6 +52,19 @@ body{
         .h1{
             text-decoration: underline;
             text-shadow: 10px;
+            animation-name: animation2;
+            animation-duration: 4s;
+            position: relative;
+            color: red;
+            
+        }
+        @keyframes animation2 {
+            from{
+                color: darkgray;
+            }
+            to{
+                color: red;
+            }
         }
         .button{
             text-decoration: none;
@@ -110,12 +123,30 @@ body{
             transition: 2s;
             
         }
+    
         .mainh1{
             margin-left: 500px;
-            background-color: aqua;
+             background-color: aqua;
             width: 400px;
+            
             font-size: 33px;
+             animation-name: animation1;
+            animation-duration: 5s;
+            
+            position: relative; 
         }
+        @keyframes animation1 { 
+            from{
+                color: darkgray;
+                background-color: darkgray;
+                margin-left: 900px;
+            }
+            to{
+                color: blue;
+                background-color: aqua;
+                margin-left: 500px;
+            }
+        } 
         .p1{
             color: red;
             font-size: larger;  

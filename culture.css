@@ -56,7 +56,19 @@ body{
         }
         .h1{
             text-decoration: underline;
+            animation-name: animation1;
+            position: relative;
+            animation-duration: 4s;
+            color:rgb(24, 85, 85);
             
+        }
+        @keyframes animation1 {
+            from{
+                color:darkgray;
+            }
+            to{
+                color:rgb(24, 85, 85);
+            }
         }
         .button{
             text-decoration: none;
